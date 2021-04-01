@@ -1,0 +1,183 @@
+$backgroundColor: #eee;
+$bodyColor: #000;
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+body {
+  background: $backgroundColor;
+  background-image: url("/assets/images/background.png");
+  background-repeat: no-repeat;
+  background-position: 0px 80px;
+  background-attachment: fixed;
+  color: $bodyColor;
+  font-family: $bodyFont;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: #111;
+}
+
+header .header-logo {
+  display: block;
+  float: left;
+  height: 60px;
+  margin: 10px 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  header {
+    height: 120px;
+  }
+
+  header .header-logo {
+    height: 100px;
+  }
+
+}
+
+/* Main */
+main {
+  padding-top: 80px;
+}
+@media only screen and (min-width: 1000px) {
+
+  main {
+    padding-top: 120px;
+  }
+
+}
+/* Footer */
+
+footer {
+  width: 100%;
+  height: 30px;
+  background-color: #ccc;
+  background-image: url("/assets/images/footer.png");
+  background-repeat: repeat-x;
+}
+
+/* Resources */
+.wrapper {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  width: calc(100vw - 40px);
+  min-height: calc(100vh - 30px);
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.resources div {
+  margin: 5px;
+  width: calc(100% - 10px);
+  height: calc(30vw - 5px);
+  background-color: #eee;
+  overflow: hidden;
+}
+
+.resources div img {
+  display: block;
+  width: calc(30% - 10px);
+  margin: 5px;
+  float: left;
+}
+
+.resources div h3 {
+  display: block;
+  width: calc(70% - 10px);
+  font-size: 1.25em;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;;
+  margin: 5px;
+  float: left;
+}
+
+.resources div p {
+  display: block;
+  width: calc(70% - 10px);
+  height: calc(25vw);
+  text-align: center;
+  float: right;
+}
+
+@media only screen and (min-width: 500px) {
+
+  .resources{
+    overflow: hidden;
+  }
+
+  .resources div {
+    height: calc(20vw - 4px);
+    float: left;
+  }
+
+  .resources div img {
+    width: calc(40% - 10px);
+  }
+
+  .resources div h3 {
+    width: calc(60% - 10px);
+  }
+
+  .resources div p {
+    width: calc(60% - 10px);
+  }
+
+  .resource {
+    width: calc(50% - 10px) !important;
+  }
+
+}
+
+@media only screen and (min-width: 750px) {
+
+  .resources{
+    overflow: hidden;
+  }
+
+  .resources div {
+    height: calc(20vw - 10px);
+    float: left;
+  }
+
+  .resource {
+    width: calc(50% - 10px) !important;
+  }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .wrapper {
+    width: 1000px;
+  }
+
+  .resources div h3 {
+    width: 100%;
+    margin: 5px 0;
+    height: 50px;
+    float: none;
+  }
+
+  .resources div p {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .resources div img {
+    width: calc(100% - 10px);
+    float: none;
+    margin: 5px auto;
+  }
+
+  .resource {
+      width: calc(25% - 15px) !important;
+      height: 350px !important;
+  }
+}
