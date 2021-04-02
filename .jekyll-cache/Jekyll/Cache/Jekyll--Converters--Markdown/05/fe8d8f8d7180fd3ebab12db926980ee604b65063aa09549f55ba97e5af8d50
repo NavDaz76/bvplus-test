@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>Main - Bedrock Vanilla +</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="/assets/css/main.css">
-  </head>
-  <body>
-    <header>
-      <img class="header-logo" src="/assets/images/logo.png">
-    </header>
-
-
-<main>
+I"Ú<main>
   <div class="wrapper">
     <section class="category-navigation">
     Show the tabs for different categories here!
@@ -24,55 +6,55 @@
     <section class="resources">
       
         <div class="resource">
-          <img src="/assets/images/test-1.png" />
+          <img src="/assets/imagestest-1.png" />
           <h3>Grass Partial Side</h3>
           <p>Created for BV+<br />Created by Me</p>
           </div>
           
         <div class="resource">
-          <img src="/assets/images/test-2.png" />
+          <img src="/assets/imagestest-2.png" />
           <h3>Grass Full Side</h3>
           <p>Created for BV+<br />Created by Me</p>
           </div>
           
         <div class="resource">
-          <img src="/assets/images/test-3.png" />
+          <img src="/assets/imagestest-3.png" />
           <h3>Test 3 Test 3 Test 3 Test 3</h3>
           <p>Created for BV+<br />Created by Me</p>
           </div>
           
         <div class="resource">
-          <img src="/assets/images/test-4.png" />
+          <img src="/assets/imagestest-4.png" />
           <h3>Test 4</h3>
           <p>Created for BV+<br />Created by Me</p>
           </div>
           
         <div class="resource">
-          <img src="/assets/images/test-5.png" />
+          <img src="/assets/imagestest-5.png" />
           <h3>Test 5</h3>
           <p>Created for BV+<br />Created by Me</p>
           </div>
           
         <div class="resource">
-          <img src="/assets/images/test-6.png" />
+          <img src="/assets/imagestest-6.png" />
           <h3>Test 6</h3>
           <p>Created for BV+<br />Created by Me</p>
           </div>
           
         <div class="resource">
-          <img src="/assets/images/test-2.png" />
+          <img src="/assets/imagestest-2.png" />
           <h3>Test 7</h3>
           <p>Created for BV+<br />Created by Me</p>
           </div>
           
         <div class="resource">
-          <img src="/assets/images/test-5.png" />
+          <img src="/assets/imagestest-5.png" />
           <h3>Test 8</h3>
           <p>Created for BV+<br />Created by Me</p>
           </div>
           
         <div class="resource">
-          <img src="/assets/images/test-3.png" />
+          <img src="/assets/imagestest-3.png" />
           <h3>Test 9 Test 9</h3>
           <p>Created for BV+<br />Created by Me</p>
           </div>
@@ -83,11 +65,4 @@
     </section>
   </div>
 </main>
-
-
-  <footer>
-      <h2>Copyright Bedrock Vanilla + 2021</h2>
-  </footer>
-  </body>
-</html>
-
+:ET

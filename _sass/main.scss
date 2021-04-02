@@ -4,7 +4,7 @@ $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-seri
 
 body {
   background: $backgroundColor;
-  background-image: url({{"/assets/images/background.png"|relative-url}});
+  background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-position: 0px 80px;
   background-attachment: fixed;
@@ -19,7 +19,7 @@ header {
   height: 80px;
   position: fixed;
   background-color: #000;
-  background-image: url({{'/assets/images/header-bg.png'|relative-url}});
+  background-image: url("../assets/images/header-bg.png");
   background-repeat: repeat-x;
   background-position: bottom;
 }
