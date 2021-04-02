@@ -1,3 +1,3 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/bvplus-test/" # the subpath of your site, e.g. /blog
+baseurl: "/bvplus-test" # the subpath of your site, e.g. /blog
 title: "Bedrock Vanilla +" # the name of your site, e.g. ACME Corp.
