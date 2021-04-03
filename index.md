@@ -10,7 +10,7 @@ title: "Main"
     <section class="resources">
       {% for resources in site.data.resources %}
         <div class="resource">
-          <img src="/assets/images{{resources.image | relative_url}}">
+          <img src="/assets/images/{{resources.image}}"{{ | relative_url}}>
           <h3>{{ resources.name }}</h3>
           <p>Created for BV+<br>Created by {{ resources.creator }}</p>
           </div>
