@@ -13,7 +13,6 @@ body {
 }
 
 .wrapper {
-  padding-top: 10px;
   padding-bottom: 30px;
   width: calc(100vw - 20px);
   min-height: calc(100vh - 30px);
@@ -191,6 +190,35 @@ main {
   }
 
 }
+
+/* Category Navigation */
+
+.category-navigation {
+  height: 30px;
+  padding: 5px;
+}
+
+.category-navigation ul {
+  display: block;
+  float: left;
+  height: 30px;
+}
+
+.category-navigation ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 5px;
+  border-right: solid 1px #222;
+}
+
+.category-navigation ul li a {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1em;
+  color: #222;
+  line-height: 20px;
+}
+
 /* Footer */
 
 footer {
