@@ -2,4 +2,18 @@
 layout: main
 ---
 
-<<h1>Resource Content</h1>
+    <div class="category-navigation">
+      <ul>
+        {% for category in site.data.categories %}
+          {% if category.category == page.title %}
+        <li><a>{{ category.name }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <section class="resources">
+{{ content }}
+    </section>
+    <section class="other-stuff">
+      This is for other stuff
+    </section>
