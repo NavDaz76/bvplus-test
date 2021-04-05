@@ -1,6 +1,18 @@
 - name: Landscape
   category: Resources
 - name: Sounds
-  category: Add-Ons
+  category: Resources
 - name: Stone
   category: Crafting
+- name: Visual
+  category: Resources
+- name: Sides
+  category: Resources
+- name: Variations
+  category: Resources
+- name: Inconspicuous
+  category: Resources
+- name: Mobs
+  category: Add-Ons
+- name: Utilities
+  category: Add-Ons
