@@ -8,6 +8,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c3978e6a49.js" crossorigin="anonymous"></script>
+    <script>
+      function openResource(evt, catName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("resources");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(catName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    </script>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <style>
       body {

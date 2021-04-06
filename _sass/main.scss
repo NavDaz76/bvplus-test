@@ -193,32 +193,32 @@ main {
 
 /* Category Navigation */
 
-.category-navigation {
-  height: 30px;
-  padding: 5px;
+.category-tabs {
+  overflow:hidden;
+  background-color: #ccc;
 }
 
-.category-navigation ul {
-  display: block;
+.category-tabs button {
+  background-color: inherit;
   float: left;
-  height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 8px;
+  transition: 0.3s;
 }
 
-.category-navigation ul li {
-  display: inline-block;
-  float: left;
-  list-style: none;
-  padding: 0 5px;
-  border-right: solid 1px #222;
+.category-tabs button:hover {
+  background-color: #fff;
 }
 
-.category-navigation ul li a {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size: 1em;
-  color: #222;
-  line-height: 20px;
+.category-tabs button.active {
+  background-color: #eee;
 }
 
+.resources {
+    display: none;
+}
 /* Footer */
 
 footer {

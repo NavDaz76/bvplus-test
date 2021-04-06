@@ -8,6 +8,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c3978e6a49.js" crossorigin="anonymous"></script>
+    <script>
+      function openResource(evt, catName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("resources");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(catName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    </script>
     <link rel="stylesheet" href="/bvplus-test/assets/css/main.css">
     <style>
       body {
@@ -58,99 +80,309 @@
 
 <main>
   <div class="wrapper">
-        <div class="category-navigation">
-      <ul>
+    
+    <div class="category-tabs">
+      
         
           
-        <li><a>Landscape</a></li>
+          
+          <button class="tablinks" onclick="openResource(event, 'Landscape')" id="defaultOpen">Landscape</button>
+          
           
         
-          
-        <li><a>Sounds</a></li>
-          
+      
         
           
-        
           
-        <li><a>Visual</a></li>
           
-        
-          
-        <li><a>Sides</a></li>
+          <button class="tablinks" onclick="openResource(event, 'Sounds')">Sounds</button>
           
         
-          
-        <li><a>Variations</a></li>
-          
+      
+        
+      
         
           
-        <li><a>Inconspicuous</a></li>
+          
+          
+          <button class="tablinks" onclick="openResource(event, 'Visual')">Visual</button>
           
         
-          
+      
         
           
+          
+          
+          <button class="tablinks" onclick="openResource(event, 'Sides')">Sides</button>
+          
         
-      </ul>
+      
+        
+          
+          
+          
+          <button class="tablinks" onclick="openResource(event, 'Variations')">Variations</button>
+          
+        
+      
+        
+          
+          
+          
+          <button class="tablinks" onclick="openResource(event, 'Inconspicuous')">Inconspicuous</button>
+          
+        
+      
+        
+      
+        
+      
     </div>
-    <section class="resources">
 
-<div class="resource">
-    <img src="/bvplus-test/assets/images/test-1.png" />
-    <h3>Grass Partial Side</h3>
-    <p>Created for BV+<br />Created by Me</p>
-  </div>
+<section id="Landscape" class="resources">
 
-<div class="resource">
-    <img src="/bvplus-test/assets/images/test-2.png" />
-    <h3>Grass Full Side</h3>
-    <p>Created for BV+<br />Created by Me</p>
-  </div>
 
-<div class="resource">
+
+
+
+
+  <div class="resource">
     <img src="/bvplus-test/assets/images/test-3.png" />
     <h3>Test 3 Test 3 Test 3 Test 3</h3>
     <p>Created for BV+<br />Created by Me</p>
   </div>
 
-<div class="resource">
-    <img src="/bvplus-test/assets/images/test-4.png" />
-    <h3>Test 4</h3>
-    <p>Created for BV+<br />Created by Me</p>
-  </div>
 
-<div class="resource">
-    <img src="/bvplus-test/assets/images/test-5.png" />
-    <h3>Test 5</h3>
-    <p>Created for BV+<br />Created by Me</p>
-  </div>
 
-<div class="resource">
+
+
+
+
+  <div class="resource">
     <img src="/bvplus-test/assets/images/test-6.png" />
     <h3>Test 6</h3>
     <p>Created for BV+<br />Created by Me</p>
   </div>
 
-<div class="resource">
+
+
+  <div class="resource">
     <img src="/bvplus-test/assets/images/test-2.png" />
     <h3>Test 7</h3>
     <p>Created for BV+<br />Created by Me</p>
   </div>
 
-<div class="resource">
+
+
+
+
+
+</section>
+
+<section id="Sounds" class="resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section id="Stone" class="resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section id="Visual" class="resources">
+
+
+
+
+
+
+
+
+  <div class="resource">
+    <img src="/bvplus-test/assets/images/test-4.png" />
+    <h3>Test 4</h3>
+    <p>Created for BV+<br />Created by Me</p>
+  </div>
+
+
+
+  <div class="resource">
     <img src="/bvplus-test/assets/images/test-5.png" />
-    <h3>Test 8</h3>
-    <p>Created for BV+<br />Created by Me</p>
-  </div>
-
-<div class="resource">
-    <img src="/bvplus-test/assets/images/test-3.png" />
-    <h3>Test 9 Test 9</h3>
+    <h3>Test 5</h3>
     <p>Created for BV+<br />Created by Me</p>
   </div>
 
 
-    </section>
+
+
+
+
+
+
+
+
+</section>
+
+<section id="Sides" class="resources">
+
+
+  <div class="resource">
+    <img src="/bvplus-test/assets/images/test-1.png" />
+    <h3>Grass Partial Side</h3>
+    <p>Created for BV+<br />Created by Me</p>
+  </div>
+
+
+
+  <div class="resource">
+    <img src="/bvplus-test/assets/images/test-2.png" />
+    <h3>Grass Full Side</h3>
+    <p>Created for BV+<br />Created by Me</p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section id="Variations" class="resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section id="Inconspicuous" class="resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section id="Mobs" class="resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section id="Utilities" class="resources">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+    <script>
+      document.getElementById("defaultOpen").click();
+    </script>
     <section class="other-stuff">
       This is for other stuff
     </section>

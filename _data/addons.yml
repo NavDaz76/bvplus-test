@@ -1,0 +1,24 @@
+- name: Shulker Drops
+  image: test-1.png
+  category: Mobs
+  file: test-1-1.0.0.zip
+  version: 1.0.0
+  creator: Me
+- name: Anti-Creeper Griefing
+  image: test-2.png
+  category: Mobs
+  file: test-2-1.0.0.zip
+  version: 1.0.0
+  creator: Me
+- name: Chunk Border
+  image: test-3.png
+  category: Utilities
+  file: test-3-1.0.0.zip
+  version: 1.0.0
+  creator: Me
+- name: Durability
+  image: test-3.png
+  category: Utilities
+  file: test-3-1.0.0.zip
+  version: 1.0.0
+  creator: Me

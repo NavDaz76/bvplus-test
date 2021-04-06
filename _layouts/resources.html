@@ -1,19 +1,24 @@
 ---
 layout: main
 ---
-
-    <div class="category-navigation">
-      <ul>
-        {% for category in site.data.categories %}
-          {% if category.category == page.title %}
-        <li><a>{{ category.name }}</a></li>
+{% assign count = 0 %}
+    <div class="category-tabs">
+      {% for category in site.data.categories %}
+        {% if category.category == page.title %}
+          {% capture count %}{{ count | plus:1 }}{% endcapture %}
+          {% if count == '1' %}
+          <button class="tablinks" onclick="openResource(event, '{{ category.name }}')" id="defaultOpen">{{ category.name }}</button>
           {% endif %}
-        {% endfor %}
-      </ul>
+          {% if count != '1' %}
+          <button class="tablinks" onclick="openResource(event, '{{ category.name }}')">{{ category.name }}</button>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
     </div>
-    <section class="resources">
 {{ content }}
-    </section>
+    <script>
+      document.getElementById("defaultOpen").click();
+    </script>
     <section class="other-stuff">
       This is for other stuff
     </section>

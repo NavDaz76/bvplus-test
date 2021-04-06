@@ -1,35 +1,42 @@
 - name: Grass Partial Side
   image: test-1.png
+  category: Sides
   file: test-1-1.0.0.zip
   version: 1.0.0
   creator: Me
 - name: Grass Full Side
   image: test-2.png
+  category: Sides
   file: test-2-1.0.0.zip
   version: 1.0.0
   creator: Me
 - name: Test 3 Test 3 Test 3 Test 3
   image: test-3.png
+  category: Landscape
   file: test-3-1.0.0.zip
   version: 1.0.0
   creator: Me
 - name: Test 4
   image: test-4.png
+  category: Visual
   file: test-4-1.0.0.zip
   version: 1.0.0
   creator: Me
 - name: Test 5
   image: test-5.png
+  category: Visual
   file: test-5-1.0.0.zip
   version: 1.0.0
   creator: Me
 - name: Test 6
   image: test-6.png
+  category: Landscape
   file: test-6-1.0.0.zip
   version: 1.0.0
   creator: Me
 - name: Test 7
   image: test-2.png
+  category: Landscape
   file: test-2-1.0.0.zip
   version: 1.0.0
   creator: Me
