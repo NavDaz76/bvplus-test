@@ -15,10 +15,24 @@
   category: Utilities
   file: test-3-1.0.0.zip
   version: 1.0.0
-  creator: Me
+  creator: LucasPAH
 - name: Durability
   image: test-3.png
   category: Utilities
   file: test-3-1.0.0.zip
   version: 1.0.0
   creator: Me
+- name: Debug Screen
+  image: test-3.png
+  category: Utilities
+  description: Brings up a debug screen similar to that of Java.
+  file: test-3-1.0.0.zip
+  version: 1.0.0
+  creator: LucasPAH
+- name: Test Item
+  image: test-3.png
+  category: Utilities
+  description: Details of a this add-on
+  file: test-3-1.0.0.zip
+  version: 1.0.0
+  creator: LucasPAH

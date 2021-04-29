@@ -1,0 +1,7 @@
+- name: More Stairs
+  image: test-3.png
+  category: All
+  description: 1 to 1 stair from block
+  file: test-3-1.0.0.zip
+  version: 1.0.0
+  creator: Rayth

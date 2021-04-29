@@ -9,6 +9,7 @@ title: Add-Ons
   <div class="resource">
     <img src="{{addon.image | prepend: "/assets/images/" | relative_url}}">
     <h3>{{ addon.name }}</h3>
+    <p>{{ addon.description }}</p>
     <p>Created for BV+<br>Created by {{ addon.creator }}</p>
   </div>
 {% endif %}

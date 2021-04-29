@@ -10,7 +10,7 @@
   file: test-2-1.0.0.zip
   version: 1.0.0
   creator: Me
-- name: Test 3 Test 3 Test 3 Test 3
+- name: Test 3 Test 3 Test 3
   image: test-3.png
   category: Landscape
   file: test-3-1.0.0.zip
@@ -42,11 +42,13 @@
   creator: Me
 - name: Test 8
   image: test-5.png
+  category: Landscape
   file: test-5-1.0.0.zip
   version: 1.0.0
   creator: Me
 - name: Test 9 Test 9
   image: test-3.png
+  category: Landscape
   file: test-3-1.0.0.zip
   version: 1.0.0
   creator: Me
